@@ -5,9 +5,9 @@
 Your friend is a chief architect, who is working on building a skyscraper, in Mumbai. The construction is in such a way that the floors will be constructed in other factories and they will be assembled. All the sizes will be distinct.
 The skyscraper needs to be constructed in N days with the following conditions :
 
-⦁ Every day a floor is constructed in a separate factory of distinct size.
-⦁ The floor with the larger size must be placed at the bottom of the building.
-⦁ The floor with the smaller size must be placed at the top of the building.
+⦁ Every day a floor is constructed in a separate factory of distinct size.<br>
+⦁ The floor with the larger size must be placed at the bottom of the building.<br>
+⦁ The floor with the smaller size must be placed at the top of the building.<br>
 
 Note: A floor cannot be assembled in the building until all floors larger in size are placed.
 As a friend he wants you to build a small program that will help him analyze the construction process, to avoid manual work and errors.
@@ -38,10 +38,10 @@ enter the floor size given on day : 3
 The order of construction is as follows
 
 Day: 1
-3
-Day: 2
+3<br>
+Day: 2<br>
 
-Day: 3
+Day: 3<br>
 2 1
 
 **Explanation**
@@ -67,15 +67,15 @@ enter the floor size given on day : 5
 
 The order of construction is as follows
 
-Day: 1
+Day: 1<br>
 
-Day: 2
+Day: 2<br>
 5 4
-Day: 3
+Day: 3<br>
 
-Day: 4
+Day: 4<br>
 
-Day: 5
+Day: 5<br>
 3 2 1
 
 **Explanation**
@@ -112,25 +112,25 @@ enter the floor size given on day : 10
 
 The order of construction is as follows
 
-Day: 1
+Day: 1<br>
 
-Day: 2
+Day: 2<br>
 
-Day: 3
+Day: 3<br>
 
-Day: 4
+Day: 4<br>
 
-Day: 5
+Day: 5<br>
 
-Day: 6
+Day: 6<br>
 10 9 8
-Day: 7
+Day: 7<br>
 
-Day: 8
+Day: 8<br>
 
-Day: 9
+Day: 9<br>
 7
-Day: 10
+Day: 10<br>
 6 5 4 3 2 1
 
 #### Instructions:
@@ -148,13 +148,15 @@ You are required to modify the existing BST and display the node values present 
 
 **Hint:** ( Convert the Binary Search Tree into a Skewed Tree).
 
-50 10
-/ \
-30 60 => 30
-/ \
-10 55 50
-55
-60
+         50                                             10
+        /  \                                             \
+      30    60             =>                            30
+      /      \                                             \
+    10        55                                           50
+                                                             \
+                                                             55
+                                                               \
+                                                               60
 
 **Output**
 
@@ -171,23 +173,3 @@ tree.node.left = new Node(30);
 tree.node.right = new Node(60);
 tree.node.left.left = new Node(10);
 tree.node.right.left= new Node(55);
-
-class Node {
-    int data;
-    Node left, right;
-
-    public Node(int item) {
-        data = item;
-        left = right = null;
-    }
-}
-
-public class Main {
-    Node node;
-
-    // Constructor
-    public Main() {
-        node = null;
-    }
-
-    // Function to convert BST to skewed tree
