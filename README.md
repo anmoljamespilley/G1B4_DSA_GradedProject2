@@ -80,10 +80,10 @@ Day: 5<br>
 
 **Explanation**
 
-On the first day, the floor of size 4 is given. But it cannot be assembled as the floor of size 5 is still remaining.
-On the second day, the floor of size 5 is given so now the floor of sizes 5 and 4 can be assembled
-On the third and fourth days, floors cannot be assembled as the size of 3 needs to be given yet. Therefore, these lines are empty.
-On the fifth day, all the floors of sizes 3, 2, and 1 can be placed.
+On the first day, the floor of size 4 is given. But it cannot be assembled as the floor of size 5 is still remaining.<br>
+On the second day, the floor of size 5 is given so now the floor of sizes 5 and 4 can be assembled<br>
+On the third and fourth days, floors cannot be assembled as the size of 3 needs to be given yet. Therefore, these lines are empty.<br>
+On the fifth day, all the floors of sizes 3, 2, and 1 can be placed.<br>
 
 **Test Case 3**
 
@@ -135,8 +135,8 @@ Day: 10<br>
 
 #### Instructions:
 
-- You can use any inbuilt java function/s to implement the above functionalities
-- You can choose any DataStructure(Stack, Queue, LinkedList) to implement the above functionality.
+- You can use any inbuilt java function/s to implement the above functionalities<br>
+- You can choose any DataStructure(Stack, Queue, LinkedList) to implement the above functionality.<br>
 
 -------------------------------------------------------------------------------------------------------------------------
 
