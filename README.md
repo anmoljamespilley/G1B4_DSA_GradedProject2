@@ -41,7 +41,7 @@ enter the floor size given on day : 3
 The order of construction is as follows
 
 Day: 1<br>
-3
+3<br>
 Day: 2<br>
 <br>
 Day: 3<br>
