@@ -46,9 +46,9 @@ Day: 3<br>
 
 **Explanation**
 
-The largest floor size is available on day 1 itself, hence it will be assembled on day 1.
-On the second day floor of size 1 is available and cannot be assembled as the floor of size 2 is not available.
-On the third day floor of size 2 is available and accordingly, the remaining floor (2,1) will assemble in the order 2,1
+The largest floor size is available on day 1 itself, hence it will be assembled on day 1.<br>
+On the second day floor of size 1 is available and cannot be assembled as the floor of size 2 is not available.<br>
+On the third day floor of size 2 is available and accordingly, the remaining floor (2,1) will assemble in the order 2,1<br>
 
 **TestCase 2**
 
