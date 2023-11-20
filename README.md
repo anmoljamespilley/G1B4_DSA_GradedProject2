@@ -163,50 +163,15 @@ You are required to modify the existing BST and display the node values present 
 
 Hint: ( Convert the Binary Search Tree into a Skewed Tree).
 
-public class Main {
-    Node node;
-
-    public static void main(String[] args) {
-        Main tree = new Main();
-        tree.node = new Node(50);
-        tree.node.left = new Node(30);
-        tree.node.right = new Node(60);
-        tree.node.left.left = new Node(10);
-        tree.node.right.left = new Node(55);
-
-        // Modify BST to a skewed tree
-        tree.modifyBST(tree.node);
-
-        // Display node values in ascending order
-        tree.inOrderTraversal(tree.node);
-    }
-
-    // Modify BST to a skewed tree
-    void modifyBST(Node root) {
-        // TODO: Implement the modification logic here
-    }
-
-    // In-order traversal to display node values in ascending order
-    void inOrderTraversal(Node root) {
-        if (root != null) {
-            inOrderTraversal(root.left);
-            System.out.print(root.data + " ");
-            inOrderTraversal(root.right);
-        }
-    }
-}
-
-class Node {
-    int data;
-    Node left, right;
-
-    public Node(int data) {
-        this.data = data;
-        left = right = null;
-    }
-}
-
-
+         50                                             10
+        /  \                                             \
+      30    60             =>                            30
+      /      \                                             \
+    10        55                                           50
+                                                             \
+                                                             55
+                                                               \
+                                                               60
 
 Output
 
