@@ -26,14 +26,14 @@ If no floor can be assembled on the ith day, leave the line empty.<br>
 
 **TestCase 1**
 
-enter the total no of floors in the building
-3
-enter the floor size given on day : 1
-3
-enter the floor size given on day : 2
-1
-enter the floor size given on day : 3
-2
+enter the total no of floors in the building<br>
+3<br>
+enter the floor size given on day : 1<br>
+3<br>
+enter the floor size given on day : 2<br>
+1<br>
+enter the floor size given on day : 3<br>
+2<br>
 
 The order of construction is as follows
 
@@ -52,18 +52,18 @@ On the third day floor of size 2 is available and accordingly, the remaining flo
 
 **TestCase 2**
 
-enter the total no of floors in the building
-5
-enter the floor size given on day : 1
-4
-enter the floor size given on day : 2
-5
-enter the floor size given on day : 3
-1
-enter the floor size given on day : 4
-2
-enter the floor size given on day : 5
-3
+enter the total no of floors in the building<br>
+5<br>
+enter the floor size given on day : 1<br>
+4<br>
+enter the floor size given on day : 2<br>
+5<br>
+enter the floor size given on day : 3<br>
+1<br>
+enter the floor size given on day : 4<br>
+2<br>
+enter the floor size given on day : 5<br>
+3<br>
 
 The order of construction is as follows
 
@@ -87,28 +87,28 @@ On the fifth day, all the floors of sizes 3, 2, and 1 can be placed.
 
 **Test Case 3**
 
-enter the total no of floors in the building
-10
-enter the floor size given on day : 1
-1
-enter the floor size given on day : 2
-2
-enter the floor size given on day : 3
-3
-enter the floor size given on day : 4
-8
-enter the floor size given on day : 5
-9
-enter the floor size given on day : 6
-10
-enter the floor size given on day : 7
-4
-enter the floor size given on day : 8
-5
-enter the floor size given on day : 9
-7
-enter the floor size given on day : 10
-6
+enter the total no of floors in the building<br>
+10<br>
+enter the floor size given on day : 1<br>
+1<br>
+enter the floor size given on day : 2<br>
+2<br>
+enter the floor size given on day : 3<br>
+3<br>
+enter the floor size given on day : 4<br>
+8<br>
+enter the floor size given on day : 5<br>
+9<br>
+enter the floor size given on day : 6<br>
+10<br>
+enter the floor size given on day : 7<br>
+4<br>
+enter the floor size given on day : 8<br>
+5<br>
+enter the floor size given on day : 9<br>
+7<br>
+enter the floor size given on day : 10<br>
+6<br>
 
 The order of construction is as follows
 
