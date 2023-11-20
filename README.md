@@ -42,7 +42,7 @@ The order of construction is as follows
 
 Day: 1<br>
 3
-Day: 2
+Day: 2<br>
 <br>
 Day: 3<br>
 2 1
@@ -71,16 +71,16 @@ enter the floor size given on day : 5
 
 The order of construction is as follows
 
-Day: 1
-
-Day: 2
-5 4
+Day: 1<br>
+<br>
+Day: 2<br>
+5 4<br>
 Day: 3
-
-Day: 4
-
-Day: 5
-3 2 1 
+<br>
+Day: 4<br>
+<br>
+Day: 5<br>
+3 2 1<br>
 
 Explanation
 
@@ -119,26 +119,26 @@ enter the floor size given on day : 10
 
 The order of construction is as follows
 
-Day: 1
-
-Day: 2
-
-Day: 3
-
-Day: 4
-
-Day: 5
-
-Day: 6
-10 9 8 
-Day: 7
-
-Day: 8
-
-Day: 9
-7 
-Day: 10
-6 5 4 3 2 1
+Day: 1<br>
+<br>
+Day: 2<br>
+<br>
+Day: 3<br>
+<br>
+Day: 4<br>
+<br>
+Day: 5<br>
+<br>
+Day: 6<br>
+10 9 8<br>
+Day: 7<br>
+<br>
+Day: 8<br>
+<br>
+Day: 9<br>
+7<br>
+Day: 10<br>
+6 5 4 3 2 1<br>
 
 Instructions :
 
